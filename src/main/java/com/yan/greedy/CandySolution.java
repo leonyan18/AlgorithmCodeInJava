@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import static sun.swing.MenuItemLayoutHelper.max;
 
 /**
  *BM95 分糖果问题

@@ -6,8 +6,6 @@ import org.springframework.stereotype.Service;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import static sun.swing.MenuItemLayoutHelper.max;
-
 /**
  *BM94 接雨水问题
  * https://www.nowcoder.com/practice/31c1aed01b394f0b8b7734de0324e00f
@@ -39,7 +37,6 @@ public class WaterSolution implements Solution {
     @Override
     public void solve(InputStream in, OutputStream outputStream) {
         int[] arr={3,1,2,5,2,4};
-//        int[] arr={10,4,10,10,4};
         System.out.println(maxWater(arr));
     }
 
