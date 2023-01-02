@@ -11,7 +11,7 @@ import java.util.LinkedHashMap;
  * BM20 数组中的逆序对
  * https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5
  */
-@Service
+//@Service
 public class ReversePairSolution implements Solution {
     public long cnt = 0;
     public long mod = 1000000007;
