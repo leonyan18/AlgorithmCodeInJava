@@ -53,19 +53,8 @@ public class BM45Solution implements Solution {
         if (size == 0) {
             return ans;
         }
-        LinkedList<Node> queue = new LinkedList<Node>();
-        int i = 0;
-        int maxv = num[0];
-        for (; i < size - 1; i++) {
-            while (!queue.isEmpty() && queue.peek().val <= num[i]) {
-                queue.poll();
-            }
-            while (!queue.isEmpty() && queue.peekLast().val <= num[i]) {
-                queue.pollLast();
-            }
-            queue.add(new Node(num[i], i));
-        }
-        for (; i < num.length; i++) {
+        LinkedList<Node> queue = new LinkedList<>();
+        for (int i = 0; i < num.length; i++) {
             while (!queue.isEmpty() && queue.peek().pos <= i - size) {
                 queue.poll();
             }
@@ -76,7 +65,8 @@ public class BM45Solution implements Solution {
                 queue.pollLast();
             }
             queue.add(new Node(num[i], i));
-            ans.add(queue.peek().val);
+            if (i == size - 1)
+                ans.add(queue.peek().val);
         }
         return ans;
     }
