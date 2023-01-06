@@ -15,7 +15,7 @@ import java.util.Queue;
  * BM39 序列化二叉树
  * https://www.nowcoder.com/practice/cf7e25aa97c04cc1a68c8f040e71fb84
  */
-@Service
+//@Service
 public class TreeSerializeSolution implements Solution {
     String Serialize(TreeNode root) {
         String ans = "";
