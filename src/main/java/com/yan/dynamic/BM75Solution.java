@@ -19,13 +19,11 @@ public class BM75Solution implements Solution {
      * @param str2 string字符串
      * @return int整型
      */
-    int[][] dp;
-
     public int editDistance(String str1, String str2) {
         // write code here
         int len1 = str1.length();
         int len2 = str2.length();
-        dp = new int[len1 + 5][len2 + 5];
+        int[][] dp = new int[len1 + 5][len2 + 5];
         for (int i = 0; i <= len1; i++) {
             dp[i][0] = i;
         }
