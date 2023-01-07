@@ -8,6 +8,7 @@ import java.util.*;
 
 
 /**
+ * 可以使用递归，但是用了遍历
  * BM76 正则表达式匹配
  * https://www.nowcoder.com/practice/28970c15befb4ff3a264189087b99ad4
  */
