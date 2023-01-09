@@ -7,7 +7,7 @@ import java.util.*;
  * BM69 把数字翻译成字符串
  * https://www.nowcoder.com/practice/046a55e6cd274cffb88fc32dba695668
  */
-public class Solution {
+public class BM69Solution {
     /**
      * 解码
      *
