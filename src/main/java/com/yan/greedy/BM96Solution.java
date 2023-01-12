@@ -12,7 +12,7 @@ import java.util.*;
  * BM96 主持人调度（二）
  * https://www.nowcoder.com/practice/4edf6e6d01554870a12f218c94e8a299
  */
-@Service
+//@Service
 public class BM96Solution implements Solution {
     /**
      * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
