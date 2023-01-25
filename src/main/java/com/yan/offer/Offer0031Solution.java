@@ -11,14 +11,14 @@ import java.util.LinkedHashMap;
  * https://leetcode.cn/problems/OrIXps/
  */
 //@Service
-public class Offer31Solution implements Solution {
+public class Offer0031Solution implements Solution {
     private LinkedHashMap<Integer, Integer> map;
     private int capacity;
 
     @Override
     public void solve(InputStream in, OutputStream outputStream) {
         System.out.println("test");
-        Offer31Solution lruCacheSolution = new Offer31Solution(2);
+        Offer0031Solution lruCacheSolution = new Offer0031Solution(2);
         lruCacheSolution.set(1, 1);
         lruCacheSolution.set(2, 2);
         System.out.println(lruCacheSolution.get(1));
@@ -30,11 +30,11 @@ public class Offer31Solution implements Solution {
         System.out.println(lruCacheSolution.get(4));
     }
 
-    public Offer31Solution() {
+    public Offer0031Solution() {
 
     }
 
-    public Offer31Solution(int capacity) {
+    public Offer0031Solution(int capacity) {
         this.capacity = capacity;
         // 设置为访问顺序
         map = new LinkedHashMap<>(capacity, 0.75f, true);
