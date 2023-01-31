@@ -13,29 +13,25 @@ import java.util.Queue;
  */
 //@Service
 public class Offer0053Solution implements Solution {
-    public TreeNode increasingBST(TreeNode root) {
-        Queue<TreeNode> nodes = new ArrayDeque<TreeNode>();
-        doBST(root, nodes);
-        root = nodes.poll();
-        TreeNode pre = root;
-        while (nodes.size() > 0) {
-            TreeNode top = nodes.poll();
-            pre.left = null;
-            pre.right = top;
-            pre = top;
-        }
-        pre.left = null;
-        pre.right = null;
-        return root;
-    }
+    TreeNode ans = null;
+    int flag = 0;
 
-    public void doBST(TreeNode root, Queue<TreeNode> nodes) {
-        if (root == null) {
-            return;
+    public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+        if (root == null || ans != null) {
+            return null;
         }
-        doBST(root.left, nodes);
-        nodes.add(root);
-        doBST(root.right, nodes);
+        // System.out.println(root.val);
+        inorderSuccessor(root.left, p);
+        if (root.val == p.val) {
+            flag = 1;
+        } else {
+            if (flag == 1) {
+                flag++;
+                ans = root;
+            }
+        }
+        inorderSuccessor(root.right, p);
+        return ans;
     }
 
 
