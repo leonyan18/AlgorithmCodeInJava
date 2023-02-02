@@ -41,9 +41,5 @@ public class Offer0059Solution implements Solution {
 
     @Override
     public void solve(InputStream in, OutputStream outputStream) {
-        MyCalendar myCalendar = new MyCalendar();
-        myCalendar.book(10, 20); // returns true
-        myCalendar.book(0, 10); // returns false ，第二个日程安排不能添加到日历中，因为时间 15 已经被第一个日程安排预定了
-        myCalendar.book(20, 30); // returns true ，第三个日程安排可以添加到日历中，因为第一个日程安排并不包含时间 20
     }
 }
