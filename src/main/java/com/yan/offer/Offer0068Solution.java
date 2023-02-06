@@ -30,40 +30,6 @@ public class Offer0068Solution implements Solution {
         return l;
     }
 
-    class Trie {
-        Trie[] child;
-        int val;
-
-        public Trie() {
-            child = new Trie[2];
-            val = 0;
-        }
-
-        public void insert(int val) {
-            Trie node = this;
-            for (int i = 30; i >= 0; i--) {
-                int next = (val >> i) & 1;
-                if (node.child[next] == null) {
-                    node.child[next] = new Trie();
-                }
-                node = node.child[next];
-            }
-            node.val = val;
-        }
-
-        public int searchMax(int val) {
-            Trie node = this;
-            for (int i = 30; i >= 0; i--) {
-                int next = (val >> i) & 1;
-                if (node.child[(next + 1) % 2] != null) {
-                    next = (next + 1) % 2;
-                }
-                node = node.child[next];
-            }
-            return node.val;
-        }
-    }
-
     @Override
     public void solve(InputStream in, OutputStream outputStream) {
     }
