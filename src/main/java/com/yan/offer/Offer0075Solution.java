@@ -23,9 +23,7 @@ public class Offer0075Solution implements Solution {
         for (int i = 0; i < arr2.length; i++) {
             map.put(arr2[i], i);
         }
-        Arrays.sort(copy, (o1, o2) -> {
-            return map.get(o1) - map.get(o2);
-        });
+        Arrays.sort(copy, Comparator.comparingInt(map::get));
         for (int i = 0; i < arr1.length; i++) {
             arr1[i] = copy[i];
         }
