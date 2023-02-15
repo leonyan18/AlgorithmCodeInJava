@@ -28,7 +28,6 @@ public class Offer0093Solution implements Solution {
                 if (map.containsKey(pre) && pre < arr[j]) {
                     dp[i][j] = dp[j][map.get(pre)] + 1;
                 }
-                // System.out.println(i+" "+j+" "+dp[i][j]);
                 maxv = Math.max(dp[i][j], maxv);
             }
         }
