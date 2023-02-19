@@ -28,12 +28,12 @@ public class Offer0103Solution implements Solution {
                 }
                 int time = 1;
                 dp[i][j] = Math.min(dp[i][j], dp[i - 1][j]);
-                long val = j + time * 1L * coins[i - 1];
+                long val = j + (long) time * coins[i - 1];
                 while (val <= amount) {
                     int temp = time * coins[i - 1] + j;
                     dp[i][temp] = Math.min(dp[i][temp], dp[i - 1][j] + time);
                     time++;
-                    val = time * 1L * coins[i - 1] + j;
+                    val = (long) time * coins[i - 1] + j;
                 }
             }
         }
