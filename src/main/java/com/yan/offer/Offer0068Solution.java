@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 068. 查找插入位置
  * https://leetcode.cn/problems/N6YdxV/
  */
-@Service
+
 public class Offer0068Solution implements Solution {
     public int searchInsert(int[] nums, int target) {
         return binSearch(nums, 0, nums.length - 1, target);

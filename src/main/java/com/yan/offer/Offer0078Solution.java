@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 078. 合并排序链表
  * https://leetcode.cn/problems/vvXgSW/
  */
-@Service
+
 public class Offer0078Solution implements Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists.length == 0) {

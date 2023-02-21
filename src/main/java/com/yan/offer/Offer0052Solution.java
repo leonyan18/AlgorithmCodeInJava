@@ -11,7 +11,7 @@ import java.util.Queue;
  * 剑指 Offer II 052. 展平二叉搜索树
  * https://leetcode.cn/problems/NYBBNL/
  */
-//@Service
+
 public class Offer0052Solution implements Solution {
     public TreeNode increasingBST(TreeNode root) {
         Queue<TreeNode> nodes = new ArrayDeque<TreeNode>();

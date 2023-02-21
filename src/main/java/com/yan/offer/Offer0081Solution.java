@@ -12,7 +12,7 @@ import java.util.List;
  * 剑指 Offer II 081. 允许重复选择元素的组合
  * https://leetcode.cn/problems/Ygoe9J/
  */
-@Service
+
 public class Offer0081Solution implements Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> ans = new ArrayList<>();

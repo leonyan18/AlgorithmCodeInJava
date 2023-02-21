@@ -10,7 +10,7 @@ import java.io.OutputStream;
  *BM94 接雨水问题
  * https://www.nowcoder.com/practice/31c1aed01b394f0b8b7734de0324e00f
  */
-//@Service
+
 public class WaterSolution implements Solution {
 
     public long maxWater(int[] arr) {

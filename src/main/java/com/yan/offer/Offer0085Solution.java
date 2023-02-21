@@ -14,7 +14,7 @@ import java.util.Set;
  * 剑指 Offer II 085. 生成匹配的括号
  * https://leetcode.cn/problems/IDBivT/
  */
-@Service
+
 public class Offer0085Solution implements Solution {
     public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<>();

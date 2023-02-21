@@ -11,7 +11,7 @@ import java.util.Arrays;
  * 剑指 Offer II 073. 狒狒吃香蕉
  * https://leetcode.cn/problems/nZZqjQ/
  */
-@Service
+
 public class Offer0073Solution implements Solution {
     public int minEatingSpeed(int[] piles, int h) {
         Arrays.sort(piles);

@@ -9,7 +9,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 028. 展平多级双向链表
  * https://leetcode.cn/problems/Qv1Da2/
  */
-//@Service
+
 public class Offer0028Solution implements Solution {
     public Node flatten(Node head) {
         flattenLast(head);

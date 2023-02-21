@@ -11,7 +11,7 @@ import java.util.LinkedHashMap;
  * BM100设计LRU缓存结构
  * https://www.nowcoder.com/practice/5dfded165916435d9defb053c63f1e84
  */
-//@Service
+
 public class LRUCacheSolution implements Solution {
     private LinkedHashMap<Integer,Integer> map;
     private int capacity;

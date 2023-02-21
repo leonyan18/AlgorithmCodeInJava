@@ -11,7 +11,7 @@ import java.util.List;
  * 剑指 Offer II 101. 分割等和子集
  * https://leetcode.cn/problems/NUPfPr/
  */
-@Service
+
 public class Offer0101Solution implements Solution {
     public boolean canPartition(int[] nums) {
         int cnt = 0;

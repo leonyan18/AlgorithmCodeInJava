@@ -12,7 +12,7 @@ import java.util.TreeSet;
  *
  * @// TODO: 2023/1/31
  */
-//@Service
+
 public class Offer0057Solution implements Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         int len = nums.length;

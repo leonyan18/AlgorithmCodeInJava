@@ -12,7 +12,7 @@ import java.util.List;
  * 剑指 Offer II 080. 含有 k 个元素的组合
  * https://leetcode.cn/problems/uUsW3B/
  */
-@Service
+
 public class Offer0080Solution implements Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> ans = new ArrayList<>();

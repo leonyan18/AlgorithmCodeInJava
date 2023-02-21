@@ -11,7 +11,7 @@ import java.util.Random;
  * 剑指 Offer II 071. 按权重生成随机数
  * https://leetcode.cn/problems/cuyjEf/
  */
-@Service
+
 public class Offer0071Solution implements Solution {
     class Solution {
         long[] pre;

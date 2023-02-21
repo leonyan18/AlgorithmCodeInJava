@@ -11,7 +11,7 @@ import java.util.*;
  * 剑指 Offer II 075. 数组相对排序
  * https://leetcode.cn/problems/0H97ZC/
  */
-@Service
+
 public class Offer0075Solution implements Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         Map<Integer, Integer> map = new HashMap<>();

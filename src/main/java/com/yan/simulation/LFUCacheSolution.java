@@ -10,7 +10,7 @@ import java.util.*;
  * BM101设计LFU缓存结构
  * https://www.nowcoder.com/practice/93aacb4a887b46d897b00823f30bfea1
  */
-//@Service
+
 public class LFUCacheSolution implements Solution {
     private HashMap<Integer, Integer> map;
 

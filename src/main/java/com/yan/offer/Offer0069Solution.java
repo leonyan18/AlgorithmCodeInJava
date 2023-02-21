@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 069. 山峰数组的顶部
  * https://leetcode.cn/problems/B1IidL/
  */
-@Service
+
 public class Offer0069Solution implements Solution {
     public int peakIndexInMountainArray(int[] arr) {
         // for(int i=1;i<arr.length-1;i++){

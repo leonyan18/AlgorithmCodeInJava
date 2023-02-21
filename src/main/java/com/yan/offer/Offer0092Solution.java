@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 092. 翻转字符
  * https://leetcode.cn/problems/cyJERH/
  */
-@Service
+
 public class Offer0092Solution implements Solution {
     public int minFlipsMonoIncr(String s) {
         int len = s.length();

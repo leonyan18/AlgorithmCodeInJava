@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 103. 最少的硬币数目
  * https://leetcode.cn/problems/gaM7Ch/
  */
-@Service
+
 public class Offer0103Solution implements Solution {
     public int coinChange(int[] coins, int amount) {
         int[][] dp = new int[coins.length + 1][amount + 2];

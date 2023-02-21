@@ -12,7 +12,7 @@ import java.util.Map;
  * 剑指 Offer II 094. 最少回文分割
  * https://leetcode.cn/problems/omKAoA/
  */
-@Service
+
 public class Offer0094Solution implements Solution {
     public int minCut(String s) {
         int len = s.length();

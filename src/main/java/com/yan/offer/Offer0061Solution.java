@@ -11,7 +11,7 @@ import java.util.*;
  * 剑指 Offer II 061. 和最小的 k 个数对
  * https://leetcode.cn/problems/qn8gGX/
  */
-@Service
+
 public class Offer0061Solution implements Solution {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         List<List<Integer>> ans = new ArrayList<>();

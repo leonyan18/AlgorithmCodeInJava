@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 095. 最长公共子序列
  * https://leetcode.cn/problems/qJnOS7/
  */
-@Service
+
 public class Offer0095Solution implements Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         int len1 = text1.length();

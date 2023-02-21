@@ -11,7 +11,7 @@ import java.util.Arrays;
  * 剑指 Offer II 065. 最短的单词编码
  * https://leetcode.cn/problems/z1R5dt/
  */
-@Service
+
 public class Offer0066Solution implements Solution {
     class MapSum {
         MapSum[] child;

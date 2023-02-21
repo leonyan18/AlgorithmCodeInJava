@@ -9,7 +9,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 019. 最多删除一个字符得到回文
  * https://leetcode.cn/problems/RQku0D/
  */
-//@Service
+
 public class Offer0019Solution implements Solution {
     public boolean validPalindrome(String s) {
         int l = 0;

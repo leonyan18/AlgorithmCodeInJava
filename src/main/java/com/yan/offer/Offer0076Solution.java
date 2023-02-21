@@ -13,7 +13,7 @@ import java.util.*;
  *
  * @// TODO: 2023/2/11
  */
-@Service
+
 public class Offer0076Solution implements Solution {
     public int findKthLargest(int[] nums, int k) {
         // PriorityQueue<Integer> queue=new PriorityQueue<>();

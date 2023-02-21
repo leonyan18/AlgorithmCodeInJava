@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 098. 路径的数目
  * https://leetcode.cn/problems/2AoeFn/
  */
-@Service
+
 public class Offer0098Solution implements Solution {
     public int uniquePaths(int m, int n) {
         long ans = 1;

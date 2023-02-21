@@ -13,7 +13,7 @@ import java.util.Queue;
  * 剑指 Offer II 047. 二叉树剪枝
  * https://leetcode.cn/problems/pOCWxh/
  */
-//@Service
+
 public class Offer0047Solution implements Solution {
 
     public TreeNode pruneTree(TreeNode root) {

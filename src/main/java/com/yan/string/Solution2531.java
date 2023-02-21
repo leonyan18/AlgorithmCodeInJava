@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 2531. 使字符串总不同字符的数目相等
  * https://leetcode.cn/contest/weekly-contest-327/problems/make-number-of-distinct-characters-equal/
  */
-//@Service
+
 public class Solution2531 implements Solution {
     public boolean isItPossible(String word1, String word2) {
         int[] cnt1 = new int[27];

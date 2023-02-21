@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 097. 子序列的数目
  * https://leetcode.cn/problems/21dk04/
  */
-@Service
+
 public class Offer0097Solution implements Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
         int len1 = s1.length();

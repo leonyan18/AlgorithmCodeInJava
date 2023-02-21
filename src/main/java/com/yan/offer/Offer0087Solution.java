@@ -12,7 +12,7 @@ import java.util.List;
  * 剑指 Offer II 087. 复原 IP
  * https://leetcode.cn/problems/0on3uN/
  */
-@Service
+
 public class Offer0087Solution implements Solution {
     public List<String> restoreIpAddresses(String s) {
         List<String> ans = new ArrayList<>();

@@ -13,7 +13,7 @@ import java.util.PriorityQueue;
  * 剑指 Offer II 060. 出现频率最高的 k 个数字
  * https://leetcode.cn/problems/g5c51o/
  */
-@Service
+
 public class Offer0060Solution implements Solution {
     Map<Integer, Integer> map;
 

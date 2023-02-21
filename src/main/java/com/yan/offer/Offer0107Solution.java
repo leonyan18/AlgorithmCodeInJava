@@ -11,7 +11,7 @@ import java.io.OutputStream;
  * https://leetcode.cn/problems/vEAB3K/
  */
 
-public class Offer0106Solution implements Solution {
+public class Offer0107Solution implements Solution {
     public boolean isBipartite(int[][] graph) {
         byte[] flag = new byte[graph.length + 1];
         boolean[] visit = new boolean[graph.length + 1];

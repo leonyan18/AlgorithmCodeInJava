@@ -12,7 +12,7 @@ import java.util.List;
  * 剑指 Offer II 088. 爬楼梯的最少成本
  * https://leetcode.cn/problems/GzCJIP/
  */
-@Service
+
 public class Offer0088Solution implements Solution {
     public int minCostClimbingStairs(int[] cost) {
         int len = cost.length;

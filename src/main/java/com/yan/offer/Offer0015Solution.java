@@ -10,7 +10,7 @@ import java.util.*;
  * 剑指 Offer II 015. 字符串中的所有变位词
  * https://leetcode.cn/problems/VabMRr/
  */
-//@Service
+
 public class Offer0015Solution implements Solution {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> ans = new ArrayList<>();

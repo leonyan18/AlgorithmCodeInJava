@@ -10,7 +10,7 @@ import java.util.Stack;
  * 剑指 Offer II 037. 小行星碰撞
  * https://leetcode.cn/problems/XagZNi/
  */
-//@Service
+
 public class Offer0037Solution implements Solution {
     public int[] asteroidCollision(int[] asteroids) {
         Stack<Integer> stack = new Stack<>();

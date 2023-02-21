@@ -13,7 +13,7 @@ import java.util.Map;
  * 6294. 最大价值和与最小价值和的差值
  * https://leetcode.cn/contest/weekly-contest-328/problems/difference-between-maximum-and-minimum-price-sum/
  */
-//@Service
+
 public class LeetCode6294Solution implements Solution {
     Map<Integer, List<Integer>> mapList = new HashMap<>();
     Map<String, Long> edgeMap = new HashMap<>();

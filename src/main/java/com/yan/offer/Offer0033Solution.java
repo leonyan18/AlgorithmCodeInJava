@@ -11,7 +11,7 @@ import java.util.*;
  * 剑指 Offer II 033. 变位词组
  * https://leetcode.cn/problems/sfvd7V/
  */
-//@Service
+
 public class Offer0033Solution implements Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, LinkedList<String>> map = new HashMap<>();

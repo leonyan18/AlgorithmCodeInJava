@@ -11,7 +11,7 @@ import java.util.Map;
  * 剑指 Offer II 018. 有效的回文
  * https://leetcode.cn/problems/XltzEq/
  */
-//@Service
+
 public class Offer0018Solution implements Solution {
     public boolean isPalindrome(String s) {
         String s1 = "";

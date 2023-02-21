@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 104. 排列的数目
  * https://leetcode.cn/problems/D0F0SV/
  */
-@Service
+
 public class Offer0104Solution implements Solution {
     public int combinationSum4(int[] nums, int target) {
         int len = nums.length;

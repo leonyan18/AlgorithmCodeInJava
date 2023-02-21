@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 090. 环形房屋偷盗
  * https://leetcode.cn/problems/PzWKhm/
  */
-@Service
+
 public class Offer0090Solution implements Solution {
     public int rob(int[] nums) {
         int len = nums.length;

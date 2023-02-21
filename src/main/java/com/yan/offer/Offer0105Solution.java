@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 105. 岛屿的最大面积
  * https://leetcode.cn/problems/ZL6zAn/
  */
-@Service
+
 public class Offer0105Solution implements Solution {
     public int maxAreaOfIsland(int[][] grid) {
         int maxv = 0;

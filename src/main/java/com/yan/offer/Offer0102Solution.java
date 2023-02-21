@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 102. 加减的目标值
  * https://leetcode.cn/problems/YaVDxD/
  */
-@Service
+
 public class Offer0102Solution implements Solution {
     public int findTargetSumWays(int[] nums, int target) {
         int[][] dp = new int[nums.length][40001];

@@ -11,7 +11,7 @@ import java.util.*;
  * 剑指 Offer II 082. 含有重复元素集合的组合
  * https://leetcode.cn/problems/4sjJUc/
  */
-@Service
+
 public class Offer0082Solution implements Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);

@@ -11,7 +11,7 @@ import java.util.Map;
  * 剑指 Offer II 027. 回文链表
  * https://leetcode.cn/problems/aMhZSa/
  */
-//@Service
+
 public class Offer0027Solution implements Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode p = head;

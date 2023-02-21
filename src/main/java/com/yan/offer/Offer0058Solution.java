@@ -13,7 +13,7 @@ import java.util.TreeSet;
  * 剑指 Offer II 058. 日程表
  * https://leetcode.cn/problems/fi9suh/
  */
-@Service
+
 public class Offer0058Solution implements Solution {
     class MyCalendar {
         List<Integer> starts;

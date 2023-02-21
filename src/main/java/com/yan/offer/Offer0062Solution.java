@@ -14,7 +14,7 @@ import java.util.PriorityQueue;
  * 剑指 Offer II 062. 实现前缀树
  * https://leetcode.cn/problems/QC3q1f/
  */
-@Service
+
 public class Offer0062Solution implements Solution {
     class Trie {
         Trie[] child;

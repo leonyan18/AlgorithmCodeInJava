@@ -11,7 +11,7 @@ import java.util.*;
  * 剑指 Offer II 083. 没有重复元素集合的全排列
  * https://leetcode.cn/problems/VvJkup/
  */
-@Service
+
 public class Offer0083Solution implements Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();

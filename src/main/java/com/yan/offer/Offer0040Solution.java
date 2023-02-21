@@ -10,7 +10,7 @@ import java.util.Stack;
  * 剑指 Offer II 040. 矩阵中最大的矩形
  * https://leetcode.cn/problems/PLYXKQ/
  */
-//@Service
+
 public class Offer0040Solution implements Solution {
     public int maximalRectangle(String[] matrix) {
         if (matrix.length == 0) {

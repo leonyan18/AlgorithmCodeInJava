@@ -13,7 +13,7 @@ import java.util.List;
  * 剑指 Offer II 074. 合并区间
  * https://leetcode.cn/problems/SsGoHC/
  */
-@Service
+
 public class Offer0074Solution implements Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, (o1, o2) -> {

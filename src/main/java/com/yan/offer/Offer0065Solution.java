@@ -11,7 +11,7 @@ import java.util.Arrays;
  * 剑指 Offer II 065. 最短的单词编码
  * https://leetcode.cn/problems/iSwD2y/
  */
-@Service
+
 public class Offer0065Solution implements Solution {
     class Solution {
         public int minimumLengthEncoding(String[] words) {

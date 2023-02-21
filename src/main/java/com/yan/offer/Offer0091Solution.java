@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 091. 粉刷房子
  * https://leetcode.cn/problems/JEj789/
  */
-@Service
+
 public class Offer0091Solution implements Solution {
     public int minCost(int[][] costs) {
         int len = costs.length;

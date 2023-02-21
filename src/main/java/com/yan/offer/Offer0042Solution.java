@@ -15,7 +15,7 @@ import java.util.List;
  * Java实现lower_bound()和upper_bound()
  * https://blog.csdn.net/weixin_39590058/article/details/119632426
  */
-//@Service
+
 public class Offer0042Solution implements Solution {
 
     class RecentCounter {

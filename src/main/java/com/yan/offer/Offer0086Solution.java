@@ -12,7 +12,7 @@ import java.util.List;
  * 剑指 Offer II 086. 分割回文子字符串
  * https://leetcode.cn/problems/M99OJA/
  */
-@Service
+
 public class Offer0086Solution implements Solution {
     public String[][] partition(String s) {
         int len = s.length();

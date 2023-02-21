@@ -12,7 +12,7 @@ import java.util.List;
  * 剑指 Offer II 048. 序列化与反序列化二叉树
  * https://leetcode.cn/problems/h54YBf/
  */
-//@Service
+
 public class Offer0048Solution implements Solution {
 
     public String serialize(TreeNode root) {

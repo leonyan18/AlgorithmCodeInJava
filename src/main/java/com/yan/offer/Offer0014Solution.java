@@ -12,7 +12,7 @@ import java.util.Map;
  * 剑指 Offer II 014. 字符串中的变位词
  * https://leetcode.cn/problems/MPnaiL/
  */
-//@Service
+
 public class Offer0014Solution implements Solution {
     public boolean checkInclusion(String s1, String s2) {
         int len = s1.length();

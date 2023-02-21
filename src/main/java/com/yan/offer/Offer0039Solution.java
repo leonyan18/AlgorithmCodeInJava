@@ -12,7 +12,7 @@ import java.util.Stack;
  * 剑指 Offer II 039. 直方图最大矩形面积
  * https://leetcode.cn/problems/0ynMMM/
  */
-//@Service
+
 public class Offer0039Solution implements Solution {
     public int largestRectangleArea(int[] heights) {
         int len = heights.length;

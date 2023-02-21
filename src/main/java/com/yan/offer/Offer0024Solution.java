@@ -11,7 +11,7 @@ import java.util.Set;
  * 剑指 Offer II 024. 反转链表
  * https://leetcode.cn/problems/UHnkqh/
  */
-//@Service
+
 public class Offer0024Solution implements Solution {
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;

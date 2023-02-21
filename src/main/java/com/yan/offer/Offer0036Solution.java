@@ -12,7 +12,7 @@ import java.util.Stack;
  * 剑指 Offer II 036. 后缀表达式
  * https://leetcode.cn/problems/8Zf90G/
  */
-//@Service
+
 public class Offer0036Solution implements Solution {
     public int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<>();

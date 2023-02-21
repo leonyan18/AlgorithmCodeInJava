@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 077. 链表排序
  * https://leetcode.cn/problems/7WHec2/
  */
-@Service
+
 public class Offer0077Solution implements Solution {
     public ListNode sortList(ListNode head) {
         if (head == null) {

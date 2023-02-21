@@ -11,7 +11,7 @@ import java.util.Set;
  * 剑指 Offer II 022. 链表中环的入口节点
  * https://leetcode.cn/problems/c32eOV/
  */
-//@Service
+
 public class Offer0022Solution implements Solution {
     public ListNode detectCycle(ListNode head) {
         Set<ListNode> set = new HashSet<>();

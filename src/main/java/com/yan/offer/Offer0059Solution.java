@@ -13,7 +13,7 @@ import java.util.PriorityQueue;
  * 剑指 Offer II 059. 数据流的第 K 大数值
  * https://leetcode.cn/problems/jBjn9C/
  */
-@Service
+
 public class Offer0059Solution implements Solution {
     class KthLargest {
         PriorityQueue<Integer> queue;

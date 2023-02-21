@@ -9,7 +9,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 021. 删除链表的倒数第 n 个结点
  * https://leetcode.cn/problems/SLwz0R/
  */
-//@Service
+
 public class Offer0021Solution implements Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         int cnt = 0;

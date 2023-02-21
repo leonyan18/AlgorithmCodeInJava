@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 070. 排序数组中只出现一次的数字
  * https://leetcode.cn/problems/skFtm2/
  */
-@Service
+
 public class Offer0070Solution implements Solution {
     public int singleNonDuplicate(int[] nums) {
         if (nums.length == 1) {

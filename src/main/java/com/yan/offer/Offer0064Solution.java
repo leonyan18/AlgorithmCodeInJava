@@ -11,7 +11,7 @@ import java.util.List;
  * 剑指 Offer II 064. 神奇的字典
  * https://leetcode.cn/problems/US1pGT/
  */
-@Service
+
 public class Offer0064Solution implements Solution {
     class MagicDictionary {
         MagicDictionary[] child;

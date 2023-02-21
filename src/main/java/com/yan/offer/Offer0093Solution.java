@@ -12,7 +12,7 @@ import java.util.Map;
  * 剑指 Offer II 093. 最长斐波那契数列
  * https://leetcode.cn/problems/Q91FMA/
  */
-@Service
+
 public class Offer0093Solution implements Solution {
     public int lenLongestFibSubseq(int[] arr) {
         int len = arr.length;

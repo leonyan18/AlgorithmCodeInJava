@@ -14,7 +14,7 @@ import java.util.Set;
  * 剑指 Offer II 084. 含有重复元素集合的全排列
  * https://leetcode.cn/problems/7p8L0Z/
  */
-@Service
+
 public class Offer0084Solution implements Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();

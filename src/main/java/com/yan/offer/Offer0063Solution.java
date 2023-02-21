@@ -11,7 +11,7 @@ import java.util.List;
  * 剑指 Offer II 063. 替换单词
  * https://leetcode.cn/problems/UhWRSj/
  */
-@Service
+
 public class Offer0063Solution implements Solution {
     class Solution {
         Solution[] child;

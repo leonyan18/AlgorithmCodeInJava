@@ -11,7 +11,7 @@ import java.util.Queue;
  * 剑指 Offer II 041. 滑动窗口的平均值
  * https://leetcode.cn/problems/qIsx9U/
  */
-//@Service
+
 public class Offer0041Solution implements Solution {
     class MovingAverage {
         int size;

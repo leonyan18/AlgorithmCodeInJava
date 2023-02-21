@@ -11,7 +11,7 @@ import java.io.OutputStream;
  *BM95 分糖果问题
  * https://www.nowcoder.com/practice/76039109dd0b47e994c08d8319faa352
  */
-//@Service
+
 public class CandySolution implements Solution {
 
     public int candy(int[] arr) {

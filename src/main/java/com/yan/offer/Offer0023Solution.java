@@ -11,7 +11,7 @@ import java.util.Set;
  * 剑指 Offer II 023. 两个链表的第一个重合节点
  * https://leetcode.cn/problems/3u1WK4/
  */
-//@Service
+
 public class Offer0023Solution implements Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         Set<ListNode> set = new HashSet<>();

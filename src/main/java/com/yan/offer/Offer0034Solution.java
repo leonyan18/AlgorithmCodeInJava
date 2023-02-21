@@ -10,7 +10,7 @@ import java.util.*;
  * 剑指 Offer II 034. 外星语言是否排序
  * https://leetcode.cn/problems/lwyVBB/
  */
-//@Service
+
 public class Offer0034Solution implements Solution {
     public boolean isAlienSorted(String[] words, String order) {
         Map<String, Integer> orderMap = new HashMap<>();

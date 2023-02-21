@@ -11,7 +11,7 @@ import java.util.Map;
  * 剑指 Offer II 026. 重排链表
  * https://leetcode.cn/problems/LGjMqU/
  */
-//@Service
+
 public class Offer0026Solution implements Solution {
     public void reorderList(ListNode head) {
         Map<Integer, ListNode> map = new HashMap<>();

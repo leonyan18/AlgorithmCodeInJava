@@ -12,7 +12,7 @@ import java.util.List;
  * 剑指 Offer II 079. 所有子集
  * https://leetcode.cn/problems/TVdhkn/
  */
-@Service
+
 public class Offer0079Solution implements Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();

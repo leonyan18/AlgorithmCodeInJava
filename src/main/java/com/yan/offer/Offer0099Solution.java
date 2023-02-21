@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 099. 最小路径之和
  * https://leetcode.cn/problems/0i0mDW/
  */
-@Service
+
 public class Offer0099Solution implements Solution {
     public int minPathSum(int[][] grid) {
         int m = grid.length;

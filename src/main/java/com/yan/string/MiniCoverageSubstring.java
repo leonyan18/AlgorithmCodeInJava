@@ -11,7 +11,7 @@ import java.util.*;
  * BM90 最小覆盖子串
  * https://www.nowcoder.com/practice/c466d480d20c4c7c9d322d12ca7955ac
  */
-//@Service
+
 public class MiniCoverageSubstring implements Solution {
 
     public String minWindow(String S, String T) {

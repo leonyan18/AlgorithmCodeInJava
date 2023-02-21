@@ -9,7 +9,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 020. 回文子字符串的个数
  * https://leetcode.cn/problems/a7VOhD/
  */
-//@Service
+
 public class Offer0020Solution implements Solution {
     // todo have a better way
     public int countSubstrings(String s) {

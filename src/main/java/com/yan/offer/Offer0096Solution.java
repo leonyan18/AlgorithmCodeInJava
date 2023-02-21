@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 096. 字符串交织
  * https://leetcode.cn/problems/IY6buf/
  */
-@Service
+
 public class Offer0096Solution implements Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
         int len1 = s1.length();

@@ -11,7 +11,7 @@ import java.util.List;
  * 剑指 Offer II 100. 三角形中最小路径之和
  * https://leetcode.cn/problems/IlPe0q/
  */
-@Service
+
 public class Offer0100Solution implements Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int m = triangle.size();

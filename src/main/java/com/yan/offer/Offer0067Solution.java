@@ -10,7 +10,7 @@ import java.io.OutputStream;
  * 剑指 Offer II 067. 最大的异或
  * https://leetcode.cn/problems/ms70jA/
  */
-@Service
+
 public class Offer0067Solution implements Solution {
     class Solution {
         public int findMaximumXOR(int[] nums) {

@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
  * 剑指 Offer II 031. 最近最少使用缓存
  * https://leetcode.cn/problems/OrIXps/
  */
-//@Service
+
 public class Offer0031Solution implements Solution {
     private LinkedHashMap<Integer, Integer> map;
     private int capacity;

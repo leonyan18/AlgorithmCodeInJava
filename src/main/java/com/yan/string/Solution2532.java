@@ -12,7 +12,7 @@ import java.util.PriorityQueue;
  * 2532. 过桥的时间
  * https://leetcode.cn/problems/time-to-cross-a-bridge/
  */
-//@Service
+
 public class Solution2532 implements Solution {
     class Node {
         int time;
