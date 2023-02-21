@@ -5,46 +5,43 @@ import org.springframework.stereotype.Service;
 
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
- * 剑指 Offer II 106. 二分图
- * https://leetcode.cn/problems/vEAB3K/
+ * 剑指 Offer II 107. 矩阵中的距离
+ * https://leetcode.cn/problems/2bCMpM/
  */
 
 public class Offer0107Solution implements Solution {
-    public boolean isBipartite(int[][] graph) {
-        byte[] flag = new byte[graph.length + 1];
-        boolean[] visit = new boolean[graph.length + 1];
-        for (int i = 0; i < graph.length; i++) {
-            if (!dfs(graph, flag, visit, i)) {
-                return false;
+    public int[][] updateMatrix(int[][] mat) {
+        int m = mat.length;
+        int n = mat[0].length;
+        boolean[][] vis = new boolean[mat.length][mat[0].length];
+        int[][] ans = new int[mat.length][mat[0].length];
+        int[][] dir = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+        Queue<int[]> queue = new LinkedList<>();
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (mat[i][j] == 0) {
+                    queue.add(new int[]{i, j});
+                    vis[i][j] = true;
+                }
             }
         }
-        return true;
-    }
-
-    public boolean dfs(int[][] graph, byte[] flag, boolean[] visit, int pos) {
-        if (visit[pos]) {
-            return true;
-        }
-        visit[pos] = true;
-        if (flag[pos] == 0) {
-            flag[pos] = 1;
-        }
-        int next = (flag[pos]) % 2 + 1;
-        for (int i = 0; i < graph[pos].length; i++) {
-            int val = graph[pos][i];
-            if (flag[val] == 0) {
-                flag[val] = (byte) next;
-            }
-            if (flag[val] != next) {
-                return false;
-            }
-            if (!dfs(graph, flag, visit, val)) {
-                return false;
+        while (!queue.isEmpty()) {
+            int[] top = queue.poll();
+            for (int i = 0; i < 4; i++) {
+                int x = top[0] + dir[i][0];
+                int y = top[1] + dir[i][1];
+                if (x >= 0 && x < m && y >= 0 && y < n && !vis[x][y]) {
+                    ans[x][y] = ans[top[0]][top[1]] + 1;
+                    queue.add(new int[]{x, y});
+                    vis[x][y] = true;
+                }
             }
         }
-        return true;
+        return ans;
     }
 
     @Override
