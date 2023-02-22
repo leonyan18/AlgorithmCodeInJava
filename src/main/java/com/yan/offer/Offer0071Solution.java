@@ -31,8 +31,8 @@ public class Offer0071Solution implements Solution {
         }
 
         public int pickIndex() {
-            long val = r.nextLong(cnt);
-            // System.out.println(val);
+            long val = r.nextLong() % cnt;
+//            System.out.println(val);
             return binSearch(0, len - 1, val + 1);
         }
 
