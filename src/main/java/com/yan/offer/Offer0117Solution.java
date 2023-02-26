@@ -37,12 +37,10 @@ public class Offer0117Solution implements Solution {
     }
 
     public int find(int[] parent, int pos) {
-        if (parent[pos] == pos) {
-            return pos;
+        if (parent[pos] != pos) {
+            parent[pos] = find(parent, parent[pos]);
         }
-        int val = find(parent, parent[pos]);
-        parent[pos] = val;
-        return val;
+        return parent[pos];
     }
 
     public boolean check(String a, String b) {
