@@ -31,11 +31,15 @@ public class Offer0116Solution implements Solution {
             if (isConnected[pos][i] == 1 && !vis[i]) {
                 vis[i] = true;
                 findAncestor(isConnected, ancestor, vis, i, anc);
+                // 必须不然遍历次数很多
                 // vis[i]=false;
             }
         }
     }
 
+    /**
+     * 并查集
+     */
     public int findCircleNumFloyd(int[][] isConnected) {
         int cnt = 0;
         int len = isConnected.length;
@@ -61,6 +65,41 @@ public class Offer0116Solution implements Solution {
             }
         }
         return cnt;
+    }
+
+    public int findCircleNumDisjoint(int[][] isConnected) {
+        int cnt = 0;
+        int len = isConnected.length;
+        int[] parent = new int[len];
+        for (int i = 0; i < len; i++) {
+            parent[i] = i;
+        }
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len; j++) {
+                if (isConnected[i][j] == 1) {
+                    uniont(parent, i, j);
+                }
+            }
+        }
+        for (int i = 0; i < len; i++) {
+            if (parent[i] == i) {
+                cnt++;
+            }
+        }
+        return cnt;
+    }
+
+    public int find(int[] parent, int pos) {
+        if (parent[pos] == pos) {
+            return pos;
+        }
+        int val = find(parent, parent[pos]);
+        parent[pos] = val;
+        return val;
+    }
+
+    public void uniont(int[] parent, int l, int r) {
+        parent[find(parent, r)] = find(parent, l);
     }
 
     @Override
