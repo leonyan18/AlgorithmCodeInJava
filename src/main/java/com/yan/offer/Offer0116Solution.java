@@ -36,6 +36,33 @@ public class Offer0116Solution implements Solution {
         }
     }
 
+    public int findCircleNumFloyd(int[][] isConnected) {
+        int cnt = 0;
+        int len = isConnected.length;
+        int[] ancestor = new int[len];
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len; j++) {
+                for (int k = 0; k < len; k++) {
+                    if (isConnected[j][k] == 0 && isConnected[i][k] == 1 && isConnected[i][j] == 1) {
+                        isConnected[j][k] = 1;
+                        isConnected[k][j] = 1;
+                    }
+                }
+            }
+        }
+        for (int i = 0; i < len; i++) {
+            if (ancestor[i] == 0) {
+                cnt++;
+                for (int j = 0; j < len; j++) {
+                    if (isConnected[i][j] != 0) {
+                        ancestor[j] = cnt;
+                    }
+                }
+            }
+        }
+        return cnt;
+    }
+
     @Override
     public void solve(InputStream in, OutputStream outputStream) {
     }
